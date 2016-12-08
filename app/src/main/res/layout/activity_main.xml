@@ -10,8 +10,29 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="locate.locatesale.MainActivity">
 
-    <TextView
+    <Button
+        android:text="Locate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/button"
+        android:background="@android:color/holo_blue_dark"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Search"
+        android:ems="10"
+        android:layout_marginTop="84dp"
+        android:id="@+id/editText"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Enter item"
+        android:hint="Enter the item to @android:string/search_go"
+        tools:background="@style/Base.AlertDialog.AppCompat.Light" />
 </RelativeLayout>
