@@ -10,17 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="locate.locatesale.MainActivity">
 
-    <Button
-        android:text="Locate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:id="@+id/button"
-        android:background="@android:color/holo_blue_dark"
-        style="@style/Widget.AppCompat.Button.Colored" />
-
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,5 +23,32 @@
         android:layout_centerHorizontal="true"
         android:contentDescription="Enter item"
         android:hint="Enter the item to @android:string/search_go"
-        tools:background="@style/Base.AlertDialog.AppCompat.Light" />
+         />
+
+    <Button
+        android:text="Settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="17dp"
+        android:id="@+id/settingsMain"
+
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:contextClickable="true"
+        android:cursorVisible="true"
+        android:elevation="@android:dimen/thumbnail_width" />
+
+    <Button
+        android:text="Locate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/button"
+        android:background="@android:color/holo_blue_dark"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
