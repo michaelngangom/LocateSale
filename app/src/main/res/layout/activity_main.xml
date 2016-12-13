@@ -38,7 +38,8 @@
         android:backgroundTint="@android:color/holo_blue_dark"
         android:contextClickable="true"
         android:cursorVisible="true"
-        android:elevation="@android:dimen/thumbnail_width" />
+        android:elevation="@android:dimen/thumbnail_width"
+        android:onClick="openSetting"/>
 
     <Button
         android:text="Locate"
