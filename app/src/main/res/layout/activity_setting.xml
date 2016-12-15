@@ -10,4 +10,55 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="locate.locatesale.SettingActivity">
 
+    <TextView
+        android:text="Enter the online stores or Ad sites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Social Media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Address"
+        android:ems="10"
+        android:layout_marginTop="19dp"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Address"
+        android:ems="10"
+        android:layout_marginTop="29dp"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/editText3"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/holo_blue_dark"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/button2" />
 </RelativeLayout>
